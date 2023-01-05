@@ -1,5 +1,6 @@
 pub mod database;
 pub mod http_server;
+pub mod tree;
 
 use std::{
     net::{IpAddr, Ipv4Addr, SocketAddr},
